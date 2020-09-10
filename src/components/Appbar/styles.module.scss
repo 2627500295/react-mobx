@@ -1,0 +1,41 @@
+.appbar {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  // place-content: flex-start space-between;
+  align-content: center;
+  justify-content: space-between;
+  
+  height: 56px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  place-content: flex-start center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: row;
+  width: 46px;
+  max-width: 46px;
+}
+
+.left {
+  align-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  place-content: flex-start flex-end;
+  align-items: center;
+}

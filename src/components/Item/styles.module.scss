@@ -1,0 +1,31 @@
+
+.item {
+  display: flex;
+  padding: 20px 16px 18px;
+  border-bottom: 1px solid #EFEFF7;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.content {
+  margin-left: 16px;
+  flex-grow: 1;
+}

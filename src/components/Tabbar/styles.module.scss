@@ -1,0 +1,20 @@
+.tabbar {
+  height: 48px;
+  display: flex;
+}
+
+.item {
+  flex: 1 auto;
+  background-color: transparent;
+  text-align: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #DEDEE7;
+}
+
+.item.active .icon {
+  fill: #44AFEA;
+}
